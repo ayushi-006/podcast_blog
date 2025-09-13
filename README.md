@@ -1,4 +1,4 @@
-# Podcast-to-Blog 
+# Podcast-to-Blog Transformer
 
 > Transform your spoken words into compelling written content with the power of AI
 
@@ -47,10 +47,13 @@ The pipeline will:
 - Implements retry logic for API reliability
 - Generates 700-word structured blog posts
 
-**File Structure:**
+**File Structure:**   
 ```
 podcast_blog/
 ├── podcast.ipynb           # Main processing pipeline
+├── results/ 
+├   ├──transcription_result.txt
+├   ├──generated_blog_post.md
 └── README.md             # You are here
 ```
 ## Current Limitations
